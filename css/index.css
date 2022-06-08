@@ -1,0 +1,136 @@
+:root
+{
+--primary-color:#847aed;
+}
+
+*
+{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+body
+{
+    font-family:'SansPro'sans-serif;
+    color: #333;
+    line-height:1.6;
+}
+
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #333;
+}
+
+h1, h2
+{
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+p
+{
+    margin: 10px 0;
+}
+img
+{
+    width: 42px;
+}
+
+
+/* NAVBAR */
+.navbar
+{
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 70px;
+}
+.navbar ul
+{
+    display: flex;
+}
+
+.navbar a
+{
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar a:hover
+{
+    border-bottom: 2px #fff solid;
+}
+
+.navbar .flex
+{
+justify-content: space-between;
+}
+
+/* Showcase */
+
+.showcase
+{
+    background-color: var(--primary-color);
+    height: 400px;
+    color: #fff;
+    position: relative;
+}
+.showcase h1
+{
+    font-size: 40px;
+}
+.showcase p
+{
+margin: 20px 0;
+}
+
+.showcase .btn-outline:hover
+{
+    background-color: green;
+    box-shadow: 0px 3px 10px 3px lightgreen;
+}
+
+.showcase .grid
+{
+    grid-template-columns: 2fr 1fr;
+    gap:30px;
+    overflow: visible;
+}
+
+.showcase img
+{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 3px 30px;
+    background-color: currentColor;
+    justify-self: flex-end;
+    z-index: 100;
+}
+
+/* Customers */
+.customers
+{
+    padding-top: 100px;
+}
+
+customers-heading
+{
+    max-width: 500px;
+    margin: auto;
+}
+
+.customers .grid h3
+{
+    font-size: 45px;
+}
+.customers .grid p
+{
+    font-size: 20px;
+    font-weight:bold ;
+}
